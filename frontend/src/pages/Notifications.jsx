@@ -2,7 +2,7 @@ import { QueryClient, useMutation, useQuery, useQueryClient } from '@tanstack/re
 import React from 'react'
 import { acceptRequest, getFriendRequests } from '../lib/api';
 import { BellIcon, ClockIcon, MessageSquareIcon, SwitchCamera, UserCheckIcon } from 'lucide-react';
-import NoNotificationFound from '../components/noNotificationFound';
+import NoNotificationFound from '../components/NoNotificationFound';
 const Notifications = () => {
 
   const queryClient=useQueryClient();
